@@ -222,7 +222,7 @@ public class LineaEnvio implements Serializable {
     private void generarCodigoDeBarra(){
         String codigoEnv = "0000000" + envio.getIdenvio().toString() ;
         String codLinea = "000" + this.numeroLinea; 
-        this.codigoDeBarra =  codigoEnv.substring(codigoEnv.length() - 8, 9)+ codLinea.substring(codLinea.length() - 4, 4);
+        this.codigoDeBarra =  codigoEnv.substring(codigoEnv.length() - 8, codigoEnv.length())+ codLinea.substring(codLinea.length() - 4, codLinea.length());
     }
         public Integer getDigitoVerificador(){
         //this.codigoDeBarra;
