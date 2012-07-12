@@ -7,7 +7,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 import sge.entidades.LineaEnvio;
 import sge.entidades.Localidad;
 
-@Generated(value="EclipseLink-2.3.0.v20110604-r9504", date="2012-07-10T09:16:07")
+@Generated(value="EclipseLink-2.3.0.v20110604-r9504", date="2012-07-12T15:54:12")
 @StaticMetamodel(Cliente.class)
 public class Cliente_ { 
 

@@ -37,7 +37,7 @@ public class ClienteTableModel implements TableModel{
 
     @Override
     public int getColumnCount() {
-        return 3;
+        return 5;
     }
 
     @Override
@@ -81,11 +81,11 @@ public class ClienteTableModel implements TableModel{
                        break;
                 case 2:object= aCliente.getCuit();
                        break;
-             /*   case 3:object= aCliente.get;
+                case 3:object= aCliente.getDireccion();
                        break;
-                case 4:object= "Tel";
+                case 4:object= aCliente.getTelefono();
                        break;    
-                case 5:object= "Email";
+               /* case 5:object= "Email";
                        break;    */
         }
         
@@ -103,6 +103,10 @@ public class ClienteTableModel implements TableModel{
                        break;
                 case 2:aCliente.setCuit(o.toString());
                        break;
+                case 3:aCliente.setDireccion(o.toString());
+                       break;
+                case 4:aCliente.setTelefono(o.toString());
+                       break;   
          }
     }
 
